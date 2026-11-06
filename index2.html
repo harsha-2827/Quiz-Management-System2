@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Quiz Examination Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Online Quiz Examination Management System</h1>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>Users</h2>
+        <p>Teachers can create quizzes. Students can attend quizzes and view scores.</p>
+    </section>
+
+    <section>
+        <h2>Quiz: HTML Basics</h2>
+
+        <div class="question">
+            <p>1. What does HTML stand for?</p>
+
+            <input type="radio" name="q1" value="A"> Hyper Text Markup Language<br>
+            <input type="radio" name="q1" value="B"> High Text Machine Language<br>
+        </div>
+
+        <button onclick="checkAnswer()">Submit Quiz</button>
+
+        <h3 id="result"></h3>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
